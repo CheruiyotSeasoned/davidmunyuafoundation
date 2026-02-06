@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import davidCelebrating from "@/assets/david-celebrating.png";
+import foundationEvent from "@/assets/foundation-event.png";
 import { FadeInUp, StaggerContainer, StaggerItem } from "@/components/ui/animated-section";
 
-const AboutDavid = () => {
-  const profileItems = [
-    { label: "FULL NAME", value: "David Munyua" },
-    { label: "AGE", value: "30 Years" },
-    { label: "BIRTHPLACE", value: "Murang'a, Kenya" },
-    { label: "PROFESSION", value: "Veterinarian" }
+const AboutFoundation = () => {
+  const foundationStats = [
+    { label: "Founded", value: "2023" },
+    { label: "Location", value: "Murang'a, Kenya" },
+    { label: "Programs", value: "Youth Development & Sports" },
+    { label: "Impact", value: "1000+ youths reached" },
   ];
 
   return (
@@ -19,49 +19,46 @@ const AboutDavid = () => {
             <div>
               <FadeInUp>
                 <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-5 font-medium">
-                  About David
+                  About the Foundation
                 </p>
               </FadeInUp>
               
               <FadeInUp delay={0.1}>
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-extralight text-foreground mb-10 leading-[1.1]">
-                  From Murang'a to 
-                  <span className="block text-foreground/70"> World Stage</span>
+                  Empowering Youth & <span className="block text-foreground/70">Growing Darts in Kenya</span>
                 </h2>
               </FadeInUp>
               
               <StaggerContainer className="space-y-7">
                 <StaggerItem>
                   <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    David Munyua is a 30-year-old Kenyan professional darts player who made history 
-                    at the PDC World Darts Championship by stunning world No.18 Mike De Decker 
-                    in a dramatic first-round upset at Alexandra Palace in London.
+                    The David Munyua Dart Foundation is dedicated to nurturing young talent across Kenya,
+                    providing access to sports facilities, mentorship, and education. Our mission is to 
+                    inspire and empower the next generation through the sport of darts and holistic programs.
                   </p>
                 </StaggerItem>
                 
                 <StaggerItem>
                   <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    The Murang'a-born veterinarian became the first Kenyan player ever to win a match 
-                    at the World Darts Championship, guaranteeing himself a minimum payout of £15,000 
-                    (approximately Ksh 2.59 million).
+                    Since our founding in 2023, we have organized nationwide competitions, workshops, 
+                    and community outreach programs, impacting over 1000 youths across the country.
                   </p>
                 </StaggerItem>
                 
                 <StaggerItem>
                   <blockquote className="border-l-2 border-foreground/20 pl-8 my-10">
                     <p className="text-xl md:text-2xl font-serif font-light text-foreground/80 italic leading-relaxed">
-                      "I first picked up darts in a bar while having a drink with a friend. 
-                      When my friend stepped up to play, I joined in thinking 'This looks fun.' 
-                      The next day, I bought my own board."
+                      "Our vision is to create opportunities where talent meets guidance, 
+                      turning passion into success and inspiring a generation to achieve the extraordinary."
                     </p>
                   </blockquote>
                 </StaggerItem>
                 
                 <StaggerItem>
                   <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    Away from darts, David works full-time as a veterinarian—balancing his professional 
-                    career with a sporting journey that began only three years ago. His remarkable 
-                    rise proves that with passion and dedication, extraordinary things are possible.
+                    By combining mentorship programs, professional coaching, and community engagement,
+                    the Foundation ensures that sports are accessible, inspiring, and transformative 
+                    for young Kenyans nationwide.
                   </p>
                 </StaggerItem>
               </StaggerContainer>
@@ -77,26 +74,26 @@ const AboutDavid = () => {
                   transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                 >
                   <img 
-                    src={davidCelebrating} 
-                    alt="David Munyua celebrating at the World Darts Championship"
+                    src={foundationEvent} 
+                    alt="David Munyua Foundation event"
                     className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-8">
-                    <p className="text-white font-serif font-light text-lg">Historic Victory at Alexandra Palace</p>
-                    <p className="text-white/60 text-sm mt-1 tracking-wide">December 2025</p>
+                    <p className="text-white font-serif font-light text-lg">Youth Empowerment Event</p>
+                    <p className="text-white/60 text-sm mt-1 tracking-wide">2025</p>
                   </div>
                 </motion.div>
               </FadeInUp>
               
-              {/* Profile Card */}
+              {/* Foundation Stats */}
               <FadeInUp delay={0.3}>
                 <div className="bg-card p-8 border border-border/50">
                   <h3 className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-8 font-medium">
-                    Profile
+                    Foundation Stats
                   </h3>
                   <div className="grid grid-cols-2 gap-8">
-                    {profileItems.map((item, index) => (
+                    {foundationStats.map((item, index) => (
                       <motion.div 
                         key={index}
                         initial={{ opacity: 0, y: 10 }}
@@ -112,20 +109,20 @@ const AboutDavid = () => {
                 </div>
               </FadeInUp>
               
-              {/* Achievement Highlight */}
+              {/* Highlight */}
               <FadeInUp delay={0.4}>
                 <div className="bg-foreground text-background p-8">
                   <h3 className="text-xs tracking-[0.3em] uppercase text-background/60 mb-5 font-medium">
-                    Historic Achievement
+                    Foundation Milestone
                   </h3>
                   <p className="text-3xl md:text-4xl font-serif font-extralight mb-3">
-                    First Kenyan
+                    1000+ Youths
                   </p>
                   <p className="text-background/70 font-light">
-                    to win a match at the PDC World Darts Championship
+                    Reached through programs, mentorship, and competitions across Kenya
                   </p>
                   <p className="text-xs tracking-[0.15em] uppercase text-background/50 mt-6">
-                    December 18, 2025 • Alexandra Palace, London
+                    Since 2023
                   </p>
                 </div>
               </FadeInUp>
@@ -137,4 +134,4 @@ const AboutDavid = () => {
   );
 };
 
-export default AboutDavid;
+export default AboutFoundation;

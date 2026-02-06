@@ -27,14 +27,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
         >
-          {/* <motion.p 
-            className="text-xs tracking-[0.3em] uppercase text-white/60 mb-4 font-light"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            Welcome to the
-          </motion.p>
+      
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-extralight text-white tracking-tight">
             David Munyua
           </h1>
@@ -45,7 +38,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             FOUNDATION
-          </motion.p> */}
+          </motion.p>
         </motion.div>
         
         {/* Tagline */}

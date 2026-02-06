@@ -56,10 +56,10 @@ const Navigation = () => {
   <motion.img 
     src={Logo}
     alt="MR Why Not"
-    className={`h-20 md:h-24 w-auto object-contain transition-all duration-300 ${
+    className={`h-24 md:h-32 w-[300px] md:w-[400px] object-contain transition-all duration-300 ${
       isScrolled ? "dark:invert" : "invert dark:invert-0"
     }`}
-    whileHover={{ scale: 1.06 }}
+    whileHover={{ scale: 1.08 }}
     transition={{ duration: 0.3 }}
   />
 </Link>

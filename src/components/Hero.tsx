@@ -27,7 +27,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
         >
-          <motion.p 
+          {/* <motion.p 
             className="text-xs tracking-[0.3em] uppercase text-white/60 mb-4 font-light"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -45,7 +45,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             FOUNDATION
-          </motion.p>
+          </motion.p> */}
         </motion.div>
         
         {/* Tagline */}
@@ -59,9 +59,9 @@ const Hero = () => {
             "It is a very big moment for the sport itself, for Africa and Kenya. 
             The sport can grow. I'm happy I did my best."
           </p>
-          <p className="text-xs tracking-[0.2em] uppercase text-white/50 mt-6 font-light">
+          {/* <p className="text-xs tracking-[0.2em] uppercase text-white/50 mt-6 font-light">
             — David Munyua, December 2025
-          </p>
+          </p> */}
         </motion.div>
         
         {/* CTA Button */}

@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import Logo from "@/assets/lo.png";
+import Logo from "@/assets/logosig.png";
 import { Menu, X } from "lucide-react";
 
 const Navigation = () => {

@@ -36,6 +36,9 @@ const Navigation = () => {
     { label: "ABOUT", action: () => scrollToSection('about') },
     { label: "MISSION", action: () => scrollToSection('mission') },
     { label: "GALLERY", to: "/gallery" },
+    { label: "PROGRAMS", to: "/programs" },
+    { label: "NEWS", to: "/news" },
+    { label: "DONATE", action: () => scrollToSection('donate') },
     { label: "ACHIEVEMENTS", action: () => scrollToSection('achievements') },
     { label: "CONTACT", action: () => scrollToSection('contact') }
   ];

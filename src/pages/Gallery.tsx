@@ -121,29 +121,49 @@ This moment at Stamford Bridge represented more than sports tourism – it was a
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 px-6 border-b border-border/50">
-        <StaggerContainer className="max-w-7xl mx-auto">
-          <StaggerItem>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="text-center max-w-3xl mx-auto"
-            >
-              <h1 className="text-5xl md:text-7xl font-light tracking-tight mb-6">
-                Gallery
-              </h1>
-              <div className="h-px w-24 bg-foreground mx-auto mb-8" />
-              <p className="text-lg md:text-xl text-muted-foreground font-light leading-relaxed">
-                The Journey
-              </p>
-              <p className="text-sm md:text-base text-muted-foreground/70 mt-4 font-light">
-                Capturing the historic moments of David Munyua's journey from Murang'a to the world stage at Alexandra Palace.
-              </p>
-            </motion.div>
-          </StaggerItem>
-        </StaggerContainer>
-      </section>
+      {/* Hero Section */}
+<section className="relative h-[85vh] min-h-[600px] w-full overflow-hidden">
+  {/* Background Image */}
+  <motion.img
+    src={davidThrowing}
+    alt="David Munyua competing on the world stage"
+    initial={{ scale: 1.1, opacity: 0 }}
+    animate={{ scale: 1, opacity: 1 }}
+    transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+
+  {/* Dark overlay */}
+  <div className="absolute inset-0 bg-black/65" />
+
+  {/* Content */}
+  <StaggerContainer className="relative z-10 h-full flex items-center px-6">
+    <StaggerItem className="w-full">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+        className="max-w-4xl mx-auto text-center text-white"
+      >
+        <h1 className="text-6xl md:text-8xl font-light tracking-tight mb-8">
+          Gallery
+        </h1>
+
+        <div className="h-px w-24 bg-white/80 mx-auto mb-8" />
+
+        <p className="text-xl md:text-2xl font-light text-white/85 leading-relaxed">
+          A visual journey from Murang&apos;a to the world stage
+        </p>
+
+        <p className="mt-6 text-sm md:text-base text-white/60 font-light max-w-2xl mx-auto">
+          Historic moments, defining victories, and the human stories behind
+          David Munyua’s rise in world darts.
+        </p>
+      </motion.div>
+    </StaggerItem>
+  </StaggerContainer>
+</section>
+
 
       {/* Filter */}
       <section className="py-12 px-6 border-b border-border/50">

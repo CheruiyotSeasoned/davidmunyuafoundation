@@ -35,27 +35,27 @@ const AboutFoundation = () => {
                 {/* David’s Story Intro */}
                 <StaggerItem>
                   <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    As a professional darts player, David Munyua made history as the first Kenyan to win a match 
-                    at the PDC World Darts Championship. Beyond his sporting achievements, David is a veterinarian 
-                    deeply committed to giving back to his community.
+                    Our founder made history as the first Kenyan to win a match at the PDC World Darts Championship, proving that with belief, discipline, and opportunity,
+                     Kenyan talent can stand proudly on the world stage. That moment was more than a personal victory —it was a symbol of what is possible for young people across Kenya and Africa who dare to dream..
                   </p>
                 </StaggerItem>
 
                 {/* Transition to Foundation Mission */}
                 <StaggerItem>
                   <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    Inspired by his journey, David founded the <strong>David Munyua Dart Foundation</strong>, a 
-                    platform dedicated to nurturing youth talent, supporting education for orphans, and promoting 
-                    wildlife and animal welfare in Kenya.
+                    Inspired by his own journey, our founder established the <strong>David Munyua Dart Foundation</strong> to create the same opportunities that shaped his life.
+                     He envisioned a platform dedicated to nurturing youth talent through training, mentorship, and the provision of professional darts kits — giving young people not just equipment, but belief, structure, 
+                    and a pathway to excellence. Through the Foundation, our founder is committed to building Africa’s next generation of champions, both in sport and in life.
                   </p>
                 </StaggerItem>
 
                 {/* Vision & Impact */}
                 <StaggerItem>
                   <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    Since its inception in 2023, the Foundation has impacted over a thousand young lives, 
-                    organizing mentorship programs, sports competitions, and community workshops that empower 
-                    youth to dream bigger and achieve more.
+                    Beyond sport, our founder is a veterinarian deeply devoted to his community, working to improve animal health and welfare. 
+                    His connection to animals and nature, combined with his experience representing Kenya on the global stage, inspired a deeper purpose. 
+                    Our founder believes that the same platform that elevated his voice in sport can be used to promote and preserve Kenya’s rich wildlife and biodiversity,
+                     and to inspire others to value and protect the country’s natural heritage.
                   </p>
                 </StaggerItem>
 
@@ -72,9 +72,8 @@ const AboutFoundation = () => {
                 {/* Animal & Education Focus */}
                 <StaggerItem>
                   <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                    The Foundation also runs wildlife conservation initiatives and animal protection campaigns, 
-                    ensuring that Kenya's rich biodiversity is preserved. Educational support for orphans and 
-                    vulnerable children remains at the core of every program, bridging gaps and creating brighter futures.
+                    The David Munyua Dart Foundation reflects our founder’s personal mission — to give back, to open doors, and to use sport, education, and conservation as tools for lasting impact.
+                     His story is not only about breaking barriers, but about building pathways so that others can rise, believe in themselves, and shape a stronger future for Kenya.
                   </p>
                 </StaggerItem>
               </StaggerContainer>

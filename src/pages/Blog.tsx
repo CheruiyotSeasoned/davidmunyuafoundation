@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import { blogPosts } from "@/data/blogPosts";
+
 import blogHero from "@/assets/blog-hero.jpg";
 
 const Blog = () => {
